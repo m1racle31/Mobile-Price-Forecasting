@@ -12,9 +12,7 @@ from data_preprocessing import preprocess_data  # Import the preprocessing funct
 
 def main():
     # Load and preprocess the data
-    file_path = (
-        "../data/Mobile Price Classification.csv"  # Ganti dengan path yang sesuai
-    )
+    file_path = "../data/Mobile Price Classification.csv"
     df = read_csv_data(file_path)
     df = preprocess_data(df)
 
